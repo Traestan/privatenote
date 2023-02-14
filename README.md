@@ -15,9 +15,9 @@ vue
 - note/list - список заметок
 - url/{shorturl} - просмотр заметки
 - user/register - регистрация пользователя
-- user/login - аторизация пользователя
-- note/get/{shorturl} - данные для регистрации
-- note/edit/{shorturl} - обновляем данные
+- user/login - авторизация пользователя
+- note/get/{shorturl} - посмотреть запись в ui
+- note/edit/{shorturl} - обновляем данные  в ui
 
 ## Схема данных
 
