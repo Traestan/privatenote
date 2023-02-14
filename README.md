@@ -1,1 +1,35 @@
-# privatenote
+# Privatenote
+
+Сервис приватных записей, которые живут время указанное при их создании и доступны по ссылке только указанное время.
+
+## Технологический стек
+
+### Backend
+go, redis
+### Frontend
+vue
+
+## Api
+- service/ttl - массив времени жизни записи
+- note/create - добавляем заметку
+- note/list - список заметок
+- url/{shorturl} - просмотр заметки
+- user/register - регистрация пользователя
+- user/login - аторизация пользователя
+- note/get/{shorturl} - данные для регистрации
+- note/edit/{shorturl} - обновляем данные
+
+## Схема данных
+
+### Пользователи
+- usersm - коллекция email:pass(md5)
+### Заметки
+Создаются просто hmap в redis со значениями
+- User        string `json:"email"`
+- Number      string `json:"number"`
+- Text        string `json:"text"`
+- Ttl         string `json:"ttl"`
+- Title       string `json:"title"`
+- Description string `json:"description"`
+
+### В корень пишется email пользователя с uid note и ttl

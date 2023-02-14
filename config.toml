@@ -1,0 +1,7 @@
+LogLevel="info"
+Host="0.0.0.0:8181"
+Redis="0.0.0.0:6379"
+JwtKey="Olololo"
+Alphabet="asdfghjklURLEncoderConfigqwertyui"
+BlockSize="24"
+VacuumClearSec=300
