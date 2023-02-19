@@ -9,13 +9,13 @@ import (
 
 	"github.com/rs/zerolog"
 	"github.com/spf13/viper"
-	"gitlab.com/privatenote/api"
-	"gitlab.com/privatenote/internal/config"
-	"gitlab.com/privatenote/internal/db"
-	"gitlab.com/privatenote/internal/encode"
-	"gitlab.com/privatenote/internal/logger"
-	"gitlab.com/privatenote/internal/model"
-	"gitlab.com/privatenote/internal/repository"
+	"github.com/traestan/privatenote/api"
+	"github.com/traestan/privatenote/internal/config"
+	"github.com/traestan/privatenote/internal/db"
+	"github.com/traestan/privatenote/internal/encode"
+	"github.com/traestan/privatenote/internal/logger"
+	"github.com/traestan/privatenote/internal/model"
+	"github.com/traestan/privatenote/internal/repository"
 	"go.uber.org/dig"
 )
 

@@ -6,7 +6,7 @@ import (
 	"github.com/spf13/viper"
 )
 
-// NewStorage где храним заметки
+// NewStorage where do we store notes
 func NewStorage(logger *zerolog.Logger, config *viper.Viper) *redis.Client {
 	storage := redis.NewClient(&redis.Options{
 		Addr:     config.GetString("redis"),

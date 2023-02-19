@@ -6,8 +6,8 @@ import (
 
 	"github.com/go-redis/redis"
 	"github.com/rs/zerolog"
-	"gitlab.com/privatenote/internal/encode"
-	"gitlab.com/privatenote/internal/repository"
+	"github.com/traestan/privatenote/internal/encode"
+	"github.com/traestan/privatenote/internal/repository"
 )
 
 // modelData

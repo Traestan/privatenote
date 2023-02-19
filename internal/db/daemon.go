@@ -8,7 +8,7 @@ import (
 	"github.com/spf13/viper"
 )
 
-// Daemon демон который чистит заметки пользователей
+// Daemon a daemon that cleans user notes
 func Daemon(storage *redis.Client, logger *zerolog.Logger, config *viper.Viper) error {
 	clearVacuum := config.GetInt("VacuumClearSec")
 	timeout := time.Duration(clearVacuum) * time.Second

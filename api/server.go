@@ -7,7 +7,7 @@ import (
 	"github.com/julienschmidt/httprouter"
 	"github.com/rs/zerolog"
 	"github.com/spf13/viper"
-	"gitlab.com/privatenote/internal/model"
+	"github.com/traestan/privatenote/internal/model"
 )
 
 // NewRouter returns default httprouter.Router

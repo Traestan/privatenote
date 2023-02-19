@@ -6,7 +6,7 @@ import (
 	"net/http"
 
 	"github.com/julienschmidt/httprouter"
-	"gitlab.com/privatenote/internal/model"
+	"github.com/traestan/privatenote/internal/model"
 )
 
 func (s *Server) register(w http.ResponseWriter, r *http.Request, ps httprouter.Params) {

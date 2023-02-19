@@ -1,4 +1,4 @@
-module gitlab.com/privatenote
+module github.com/traestan/privatenote
 
 go 1.17
 

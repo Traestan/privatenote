@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"path"
 
-	"gitlab.com/privatenote/internal/model"
+	"github.com/traestan/privatenote/internal/model"
 )
 
 type ResultResponse struct {
